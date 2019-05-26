@@ -1624,6 +1624,10 @@ var Chess = function(fen) {
     turn: function() {
       return turn;
     },
+    
+    setTurn: function(newTurn) {
+      turn = newTurn;
+    },
 
     move: function(move, options) {
       /* The move function can be called with in the following parameters:
